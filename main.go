@@ -3,7 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Print("Hello World")
-	fmt.Print("Hello World")
-	fmt.Print("Hello World")
+	score := 5
+
+	if score > 10 {
+		fmt.Println("GO")
+	} else {
+		fmt.Println("STOP")
+	}
 }
